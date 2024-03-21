@@ -1,0 +1,58 @@
+
+.main{
+    background-color:#212123;
+    color: white;    
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    padding: 30px;
+}
+.blueText{
+    color: cornflowerblue;
+}
+.pinkText{
+    color:hotpink;
+    margin-right: 4px;
+}
+.attentionText{
+    width: 75%;
+    padding: 2%;
+}
+.attentionDiv{
+    background-color: #323232;
+    border-radius: 15px;
+}
+.middleDivsWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.btnWrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.middleDivHeader{
+   display: flex;
+   
+   justify-content: center;
+   width: 100%;
+}
+.middleDivText{
+    padding: 0 20px 20px 20px;
+    line-height: 25px;
+   
+}
+.middleDiv{
+width:48%;
+background-color:#323232;
+border-radius: 10px;
+
+}
+.middleDivBtn{
+    padding: 10px;
+    background: linear-gradient(117.13deg, #7E90D9 8.47%, #DE6BAA 91.95%);
+  cursor: pointer;
+    border-radius: 5px;
+}
