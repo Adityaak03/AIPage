@@ -49,10 +49,23 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>
+      <div className={styles.resumeResources}>
         <h3>
           Resume Resources
         </h3>
+        <div className={styles.resumeCards}>
+          <ul className={styles.card}>
+            <li className={styles.cards}>
+              <div className={styles.cardText}>
+                <h3 className={styles.cardText1}>Text</h3>
+                <a className={styles.view} href="#">View&nbsp; &rsaquo;</a>
+              </div>
+              <div className={styles.cardImage}>
+                  image
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       </div>
     </div>)
